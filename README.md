@@ -58,7 +58,7 @@ Flutter is a framework for building mobile and web applications with a single co
 10. **Google Backing:**
     - Developed and maintained by Google, ensuring updates.
 ### Flutter Architecture
-
+![image](https://www.google.comhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.javatpoint.com%2Ftutorial%2Fflutter%2Fimages%2Fflutter-architecture.png&tbnid=JCDjwtDwBjMQIM&vet=1&imgrefurl=https%3A%2F%2Fwww.javatpoint.com%2Fflutter-architecture&docid=-yrBf0JPq6XSvM&w=338&h=400&hl=en-US&source=sh%2Fx%2Fim%2Fm6%2F4)
 1. **Widgets:**
    - Fundamental UI elements, shaping the app's structure and appearance.
 
