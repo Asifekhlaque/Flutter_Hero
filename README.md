@@ -1,7 +1,7 @@
 # Flutter_Hero
 
 ![Flutter Logo](https://github.com/Asifekhlaque/Flutter_Hero/assets/132199879/4362aa26-7f25-4a90-a254-c92703b6ac01)
-
+# Day-01
 ## What is Flutter?
 
 Flutter is a framework for building mobile and web applications with a single codebase, simplifying cross-platform app development.
@@ -58,7 +58,8 @@ Flutter is a framework for building mobile and web applications with a single co
 10. **Google Backing:**
     - Developed and maintained by Google, ensuring updates.
 ### Flutter Architecture
-![image](https://www.google.comhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.javatpoint.com%2Ftutorial%2Fflutter%2Fimages%2Fflutter-architecture.png&tbnid=JCDjwtDwBjMQIM&vet=1&imgrefurl=https%3A%2F%2Fwww.javatpoint.com%2Fflutter-architecture&docid=-yrBf0JPq6XSvM&w=338&h=400&hl=en-US&source=sh%2Fx%2Fim%2Fm6%2F4)
+![image](https://github.com/Asifekhlaque/Flutter_Hero/assets/132199879/91bcafaf-625a-48c2-a5a5-e0d6bcf5568a)
+)
 1. **Widgets:**
    - Fundamental UI elements, shaping the app's structure and appearance.
 
