@@ -59,7 +59,7 @@ Flutter is a framework for building mobile and web applications with a single co
     - Developed and maintained by Google, ensuring updates.
 ### Flutter Architecture
 ![image](https://github.com/Asifekhlaque/Flutter_Hero/assets/132199879/91bcafaf-625a-48c2-a5a5-e0d6bcf5568a)
-)
+
 1. **Widgets:**
    - Fundamental UI elements, shaping the app's structure and appearance.
 
