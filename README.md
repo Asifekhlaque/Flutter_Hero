@@ -89,3 +89,31 @@ Flutter is a framework for building mobile and web applications with a single co
 
 10. **Platform Channels:**
     - Facilitates communication between Dart and native code, enabling interaction with device-specific features and APIs.
+# Day-02
+## Flutter Installation
+
+1. **Check Flutter Installation:**
+   - Press `Windows + R`, type `CMD`, and press enter.
+   - Type `flutter` in the command prompt.
+   - If nothing is shown, Flutter is not installed.
+
+2. **Download Flutter SDK:**
+   - Visit [Flutter Downloads](https://flutter.dev/docs/get-started/install) using Chrome.
+   - Download the latest Flutter SDK for Windows.
+
+3. **Install Android Studio:**
+   - Download and install the latest version of [Android Studio](https://developer.android.com/studio).
+   - Note: Ensure compatibility with your Flutter version.
+
+4. **SDK Manager Settings:**
+   - Open Android Studio.
+   - In 'More Settings', locate 'SDK Manager'.
+   - Navigate to 'SDK Settings' and download 'SDK Command Line' (second option).
+
+5. **Configure Flutter:**
+   - Open a command prompt.
+   - Run `flutter doctor` to check requirements.
+   - Resolve any missing dependencies reported by Flutter Doctor.
+
+6. **Ready for Flutter Development:**
+   - Once all requirements are satisfied, you are ready for Flutter development.
