@@ -117,3 +117,58 @@ Flutter is a framework for building mobile and web applications with a single co
 
 6. **Ready for Flutter Development:**
    - Once all requirements are satisfied, you are ready for Flutter development.
+
+
+### Project Structure Overview
+
+```
+📁 my_flutter_project
+  |
+  ├─ 📁 android           # Android-specific files and configurations
+  |   ├─ ...
+  |
+  ├─ 📁 assets            # Static assets like images, fonts, etc.
+  |   ├─ ...
+  |
+  ├─ 📁 ios               # iOS-specific files and configurations
+  |   ├─ ...
+  |
+  ├─ 📁 lib               # Dart code for the Flutter application
+  |   ├─ 📁 screens       # UI screens or pages
+  |   |   ├─ home.dart
+  |   |   ├─ profile.dart
+  |   |   └─ ...
+  |   |
+  |   ├─ 📁 widgets       # Reusable widgets
+  |   |   ├─ button.dart
+  |   |   ├─ card.dart
+  |   |   └─ ...
+  |   |
+  |   ├─ main.dart        # Entry point of the application
+  |   └─ ...
+  |
+  ├─ 📁 test              # Unit and widget tests
+  |   ├─ ...
+  |
+  ├─ 📄 .gitignore        # Git ignore file
+  ├─ 📄 pubspec.yaml      # Flutter dependencies and project metadata
+  └─ ...
+```
+
+### Folder Descriptions
+
+- **android:** Contains Android-specific configurations and files.
+
+- **assets:** Holds static assets like images, fonts, and other resources.
+
+- **ios:** Includes iOS-specific configurations and files.
+
+- **lib:** Main Dart code for the Flutter application.
+  - **screens:** UI screens or pages.
+  - **widgets:** Reusable widgets.
+
+- **test:** Houses unit and widget tests.
+
+- **.gitignore:** Specifies files and directories to be ignored by version control.
+
+- **pubspec.yaml:** Declares dependencies and project metadata.
