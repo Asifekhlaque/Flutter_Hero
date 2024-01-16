@@ -120,6 +120,7 @@ Flutter is a framework for building mobile and web applications with a single co
 
 # Day-03
 ### Project Structure Overview
+![image](https://github.com/Asifekhlaque/Flutter_Hero/assets/132199879/49d44fb5-85c7-4c3c-8967-7f51692be963)
 
 ```
 📁 my_flutter_project
