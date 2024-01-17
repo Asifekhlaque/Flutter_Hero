@@ -174,3 +174,22 @@ Flutter is a framework for building mobile and web applications with a single co
 - **.gitignore:** Specifies files and directories to be ignored by version control.
 
 - **pubspec.yaml:** Declares dependencies and project metadata.
+
+# Day-04
+**Benefits of Dart Language:**
+
+1. **Simplicity:** Dart is designed with simplicity in mind, making it easy to learn and understand for developers.
+
+2. **Strong Typing:** Dart is statically typed, which helps catch errors during development, providing better code reliability.
+
+3. **Object-Oriented:** Dart follows object-oriented principles, promoting code organization and reuse.
+
+4. **Cross-Platform Development:** Dart is the primary language for developing Flutter apps, allowing for cross-platform development with a single codebase.
+
+5. **Hot Reload:** Dart's hot reload feature in Flutter facilitates faster development by quickly applying code changes without restarting the entire application.
+
+6. **Rich Standard Library:** Dart comes with a comprehensive standard library, providing a wide range of functionalities for developers.
+
+7. **Asynchronous Programming:** Dart supports asynchronous programming, making it suitable for building scalable and responsive applications.
+
+8. **Community Support:** With a growing community, Dart benefits from an active ecosystem, including libraries, tools, and documentation.
