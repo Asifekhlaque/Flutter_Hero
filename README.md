@@ -194,3 +194,13 @@ Flutter is a framework for building mobile and web applications with a single co
 7. **Asynchronous Programming:** Dart supports asynchronous programming, making it suitable for building scalable and responsive applications.
 
 8. **Community Support:** With a growing community, Dart benefits from an active ecosystem, including libraries, tools, and documentation.
+
+```
+import 'dart:io';
+void main(){
+  print("First Dart Program");
+  stdout.write("What is your name?\n");
+  String? name = stdin.readLineSync();
+  print(name);
+}
+```
