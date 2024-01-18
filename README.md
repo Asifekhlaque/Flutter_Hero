@@ -204,5 +204,15 @@ void main(){
   print(name);
 }
 ```
+# Day-05
 # Class object in Dart
 ![code](https://github.com/Asifekhlaque/Flutter_Hero/assets/132199879/fb03ff41-c93b-4c6a-a787-46f41b953aed)
+# Variable and Data type
+```
+void main(){
+  int a;//None nullable variable
+  int? b;//Nullable variable
+  print(a);// It will give error
+  print(b);//It will print null
+}
+```
