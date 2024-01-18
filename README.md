@@ -204,3 +204,5 @@ void main(){
   print(name);
 }
 ```
+# Class object in Dart
+![code](https://github.com/Asifekhlaque/Flutter_Hero/assets/132199879/fb03ff41-c93b-4c6a-a787-46f41b953aed)
