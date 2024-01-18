@@ -195,7 +195,7 @@ Flutter is a framework for building mobile and web applications with a single co
 
 8. **Community Support:** With a growing community, Dart benefits from an active ecosystem, including libraries, tools, and documentation.
 # First Dart Program
-```
+```dart
 import 'dart:io';
 void main(){
   print("First Dart Program");
