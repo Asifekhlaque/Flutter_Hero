@@ -216,3 +216,80 @@ void main(){
   print(b);//It will print null
 }
 ```
+
+### Dart Data Types
+
+1. **int**: Stands for integer. It represents whole numbers.
+
+   ```dart
+   int age = 25;
+   ```
+
+2. **double**: Stands for double-precision floating-point. It represents decimal numbers.
+
+   ```dart
+   double price = 49.99;
+   ```
+
+3. **String**: Represents a sequence of characters, like text.
+
+   ```dart
+   String name = "John Doe";
+   ```
+
+4. **bool**: Stands for boolean. It represents either `true` or `false`.
+
+   ```dart
+   bool isAdult = true;
+   ```
+
+5. **List**: Represents an ordered collection of items.
+
+   ```dart
+   List<String> fruits = ["Apple", "Banana", "Orange"];
+   ```
+
+6. **Map**: Represents a collection of key-value pairs.
+
+   ```dart
+   Map<String, dynamic> person = {
+     "name": "Alice",
+     "age": 30,
+     "isStudent": false,
+   };
+   ```
+
+7. **dynamic**: Represents a variable that can hold any type of value.
+
+   ```dart
+   dynamic dynamicVariable = 42;
+   dynamicVariable = "Hello, Dart!";
+   ```
+
+### Example Usage in Dart Code
+
+```dart
+void main() {
+  // Variables with different data types
+  int age = 25;
+  double height = 5.9;
+  String name = "John Doe";
+  bool isStudent = true;
+  List<String> hobbies = ["Reading", "Traveling", "Coding"];
+  Map<String, dynamic> person = {
+    "name": "Alice",
+    "age": 30,
+    "isStudent": false,
+  };
+  dynamic dynamicVariable = 42;
+
+  // Print values
+  print("Name: $name");
+  print("Age: $age");
+  print("Height: $height");
+  print("Is a student? $isStudent");
+  print("Hobbies: $hobbies");
+  print("Person: $person");
+  print("Dynamic Variable: $dynamicVariable");
+}
+```
