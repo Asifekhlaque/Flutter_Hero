@@ -293,3 +293,29 @@ void main() {
   print("Dynamic Variable: $dynamicVariable");
 }
 ```
+
+
+### `var`:
+
+- **Usage:** `var variableName = value;`
+- **Meaning:** The `var` keyword allows Dart to infer the type of the variable based on the assigned value.
+- **Example:** 
+  ```dart
+  var age = 25; // Dart infers that age is of type int
+  var name = "John"; // Dart infers that name is of type String
+  ```
+
+### `dynamic`:
+
+- **Usage:** `dynamic variableName = value;`
+- **Meaning:** The `dynamic` keyword allows a variable to hold values of any type. The type checking is done at runtime rather than compile-time.
+- **Example:** 
+  ```dart
+  dynamic myVariable = 42; // myVariable can hold an int
+  myVariable = "Hello"; // myVariable can now hold a String
+  ```
+
+### When to Use:
+
+- Use `var` when you want Dart to infer the type based on the assigned value, and you still want type safety.
+- Use `dynamic` when you need a variable that can hold values of any type, but be cautious as it sacrifices some of Dart's static type checking.
