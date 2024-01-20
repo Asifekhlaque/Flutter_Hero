@@ -303,6 +303,10 @@ void main() {
   ```dart
   var age = 25; // Dart infers that age is of type int
   var name = "John"; // Dart infers that name is of type String
+
+  var a;
+  a=10;
+  a="Asif";
   ```
 
 ### `dynamic`:
