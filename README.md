@@ -323,3 +323,18 @@ void main() {
 
 - Use `var` when you want Dart to infer the type based on the assigned value, and you still want type safety.
 - Use `dynamic` when you need a variable that can hold values of any type, but be cautious as it sacrifices some of Dart's static type checking.
+
+# Function
+```dart
+void main() {
+  hello();
+  print(add(10, 20));
+}
+
+void hello() { //Function
+  print("Hello");
+}
+int add(int a, int b) { // Parameter Function
+  return a + b;
+}
+```
