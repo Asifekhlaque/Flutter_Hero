@@ -338,3 +338,38 @@ int add(int a, int b) { // Parameter Function
   return a + b;
 }
 ```
+
+# List
+```dart
+void main() {
+  var a = [1, 2, 3, 4, 5];
+  print(a[0]);
+  print(a[1]);
+  print(a);
+
+  print("Length:${a.length}");
+  print("Sum:${a[0] + a[1] + a[2] + a[3] + a[4]}");
+  a.add(70);
+  print("Updated List:$a");
+
+  var b = [];
+  b.add(12);
+  b.add(13);
+  b.add(14);
+  b.add(15);
+  print("List b:$b"); // output will be 12 13 14 15
+  b.addAll(a); // output will be 12 13 14 15 1 2 3 4 5
+  b.insert(0, 0); // output will be 0 12 13 14 15 1 2 3 4 5
+  b.insertAll(1, a); // output will be 12 0 13 14 15 1 2 3 4 5 
+  b.removeAt(0); // output will be 13 14 15 1 2 3 4 5
+  b.removeLast(); // output will be 13 14 15 1 2 3 4
+  b.removeRange(1, 3); // output will be 13 1 2 3 4
+  b.replaceRange(1, 3, a); // output will be 13 1 2 3 4 1 2 3 4 5
+  print("Updated List b:$b"); // output will be 13 1 2 3 4 1 2 3 4 5
+  print("List b:${b.sublist(1)}"); // output will be 1 2 3 4 1 2 3 4 5
+  print("List b:${b.reversed}"); // output will be 5 4 3 2 1 4 3 2 1
+  print("List b:${b.reversed.toList()}"); // output will be 5 4 3 2 1 4 3 2 1
+  print("List b:${b.reversed.toList().reversed}"); // output will be 1 2 3 4 1 2 3 4 5
+  
+}
+```
