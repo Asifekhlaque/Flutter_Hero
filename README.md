@@ -398,3 +398,14 @@ void main() {
   print(new_map);
 }
 ```
+# final and const keywords
+```dart
+void main() {
+  final String name = 'Asif'; // final is used to make the variable immutable
+  // final variable can be assigned only once on the runtime or compile time
+  print(name);
+
+  const int year = 2; // const is used to make the variable immutable
+  // const variable can be assigned only once on the compile time
+}
+```
