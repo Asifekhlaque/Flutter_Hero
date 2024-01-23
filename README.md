@@ -373,3 +373,28 @@ void main() {
   
 }
 ```
+# Map
+```dart
+void main() {
+  var map_name = {'Name': 'Asif', 'Course': 'BCA', 'Year': 2};
+
+  print(map_name);
+  map_name['Name'] = 'Sanjay'; // Updating value
+  print(map_name);
+
+  var new_map = Map();
+  new_map['Name'] = 'Asif';
+  new_map['Course'] = 'BCA';
+  new_map['Year'] = 2;
+
+  print(new_map.isEmpty); // output will be false
+  print(new_map.isNotEmpty); // output will be true
+
+  print(new_map.keys); // output will be Name Course Year
+  print(new_map.values); // output will be Name Asif Course BCA
+  print(new_map.length); // output will be 3
+
+  print(new_map.remove('Name')); // output will be Asif
+  print(new_map);
+}
+```
