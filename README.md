@@ -323,7 +323,7 @@ void main() {
 
 - Use `var` when you want Dart to infer the type based on the assigned value, and you still want type safety.
 - Use `dynamic` when you need a variable that can hold values of any type, but be cautious as it sacrifices some of Dart's static type checking.
-
+# Day-06
 # Function
 ```dart
 void main() {
@@ -373,6 +373,7 @@ void main() {
   
 }
 ```
+# Day-07
 # Map
 ```dart
 void main() {
