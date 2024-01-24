@@ -410,3 +410,47 @@ void main() {
   // const variable can be assigned only once on the compile time
 }
 ```
+# Day-08
+# Conditional Statement
+```dart
+void main() {
+  var a = "Asif";
+  if(a.length==0){
+    print("Empty");
+  }
+  else if(a.length==2){
+    print("2 character");
+  }
+  else if(a.length==3){
+    print("3 character");
+  }
+  else if(a.length==4){
+    print("4 character");
+  }
+  else{
+    print("More than 4 character");
+  }
+}
+```
+# Looping Statement
+```dart
+void main() {
+  for (var i = 1; i <= 10; i++) {
+    print(i);
+  }
+  print("For Loop Ended");
+  var a = 1;
+  while (a <= 10) {
+    print(a);
+    a++;
+  }
+  print("While Loop Ended");
+  var b = 1;
+  do {
+    print(b);
+    b++;
+  } while (b <= 10);
+
+  print("End");
+}
+```
